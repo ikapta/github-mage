@@ -16,5 +16,5 @@ mv backup/out/* /
 rm -rf backup
 
 git add .
-git commit -m "new version"
+git commit -m "new version $1"
 git push
