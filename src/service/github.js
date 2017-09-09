@@ -18,8 +18,8 @@ class GithubAction {
     }).catch(this.ghError)
   }
 
-  listStarredRepos () {
-
+  listStaredRepos () {
+    // return this.api.
   }
 
   getRepos () {
