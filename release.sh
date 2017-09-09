@@ -11,8 +11,9 @@ npm install
 npm run build
 
 git checkout gh-pages
-mv * backup/ -p
-mv backup/out/* /
+mkdir backup
+mv * backup/
+mv backup/.gitignore backup/readme.md backup/node_modules backup/dist/* .
 rm -rf backup
 
 git add .
